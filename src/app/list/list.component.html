@@ -1,0 +1,11 @@
+<ul>
+    <div *ngFor="let employee of employeeList, let index = index">
+
+        <li (click)="showDetails(index)" >{{employee.name}}</li>
+
+        <div *ngIf="booleano del empleado">
+        <employee-details [employee]=employee />
+        </div>
+
+    </div>
+</ul>
